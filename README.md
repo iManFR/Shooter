@@ -9,5 +9,3 @@ Cool Shooter
 - Score
 - Sounds
 - Timer
-
-## Test
