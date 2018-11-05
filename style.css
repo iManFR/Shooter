@@ -1,20 +1,3 @@
-i
-
-Keppler 1.2.2
-
-Real time code sharing for you lectures and presentations.
-
-GitHub
-NPM
-Development
-
-Bruno Simon (GitHub, Twitter, Site)
-UX / UI
-
-Tom Bonnike
-Thibaud Vaubourg
-Aymeric Sans
-Axel Chalon
 .shooter
 {
     position: absolute;
@@ -91,5 +74,33 @@ Axel Chalon
     width: 12vmin;
     height: 12vmin;
     background: #dddddd;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.55)/*#00000055*/;
 }
-./style.css
+
+
+.shooter .targets .target::before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% / 3 * 2);
+    height: calc(100% / 3 * 2);
+    transform: translate(-50%, -50%);
+    background: #cd0000;
+    border-radius: 50%;
+}
+
+.shooter .targets .target::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    transform: translate(-50%, -50%);
+    background: #dddddd;
+    border-radius: 50%;
+}
