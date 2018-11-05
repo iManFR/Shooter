@@ -1,2 +1,13 @@
 # Shooter
-Cool shooter - JavaScript Vanilla
+
+Cool Shooter
+
+## Features
+
+- Targets
+- Start and restart
+- Score
+- Sounds
+- Timer
+
+## Test

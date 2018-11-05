@@ -1,0 +1,95 @@
+i
+
+Keppler 1.2.2
+
+Real time code sharing for you lectures and presentations.
+
+GitHub
+NPM
+Development
+
+Bruno Simon (GitHub, Twitter, Site)
+UX / UI
+
+Tom Bonnike
+Thibaud Vaubourg
+Aymeric Sans
+Axel Chalon
+.shooter
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, #444444, #000000);
+    font-family: Helvetica, Arial;
+}
+
+.shooter .start
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 80px;
+    text-transform: uppercase;
+    opacity: 0.15;
+    cursor: pointer;
+}
+
+.shooter .score
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 0.15;
+}
+
+.shooter .score .value
+{
+    font-size: 120px;
+}
+
+.shooter .score .unit
+{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.shooter .timer
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 0.15;
+    font-size: 30px;
+}
+
+.shooter .targets
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shooter .targets .target
+{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 12vmin;
+    height: 12vmin;
+    background: #dddddd;
+}
+./style.css
