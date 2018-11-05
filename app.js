@@ -13,13 +13,12 @@ shooter.score = 0
 /**
  * Methods
  */
-shooter.addTarget = () =>
-{
+shooter.addTarget = () => {
     // Create target
     const $target = document.createElement('div')
     $target.classList.add('target')
-    $target.style.top = `${Math.random() * 100}%`
-    $target.style.left = `${Math.random() * 100}%`
+    $target.style.top = `${Math.random() * 95}%`
+    $target.style.left = `${Math.random() * 95}%`
     shooter.$targets.appendChild($target)
 
     // Listen to mouse enter
@@ -29,8 +28,7 @@ shooter.addTarget = () =>
     })
 }
 
-shooter.shootTarget = (_$target) =>
-{
+shooter.shootTarget = (_$target) => {
     // Delete target
     _$target.remove()
 
@@ -42,5 +40,4 @@ shooter.shootTarget = (_$target) =>
     shooter.$score.textContent = `${shooter.score}`
     // Play sound
 }
-
 shooter.addTarget()
